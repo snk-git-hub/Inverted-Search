@@ -1,0 +1,19 @@
+# Object files
+*.o
+
+# Executable
+a.out
+*.exe
+
+# Temporary files
+*.tmp
+
+# VS Code
+.vscode/
+
+# Debug files
+*.d
+
+# Core dumps
+core
+core.*
