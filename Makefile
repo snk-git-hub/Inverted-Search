@@ -13,7 +13,7 @@ $(TARGET): $(OBJ)
 	$(CC) $(CFLAGS) -c $< -o $@
 
 clean:
-	del /Q *.o $(TARGET).exe 2>NUL || exit 0
+	rm -f $(OBJ) $(TARGET)
 
 run: $(TARGET)
 	./$(TARGET)

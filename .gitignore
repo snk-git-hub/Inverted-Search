@@ -1,0 +1,30 @@
+# Compiled object files
+*.o
+
+# Executable
+Inverted_Search
+Inverted_Search.exe
+
+# CMake build directories
+build/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# IDE files
+.idea/
+.vscode/
+
+# Debug files
+*.dSYM/
+*.stackdump
+
+# Temporary files
+*.tmp
+*.temp
+
+# OS files
+.DS_Store
+Thumbs.db
